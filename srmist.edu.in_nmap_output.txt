@@ -1,0 +1,208 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-03-17 00:47 IST
+Nmap scan report for srmist.edu.in (13.127.51.112)
+Host is up (0.0040s latency).
+Other addresses for srmist.edu.in (not scanned): 65.1.50.41
+rDNS record for 13.127.51.112: ec2-13-127-51-112.ap-south-1.compute.amazonaws.com
+Not shown: 996 filtered tcp ports (no-response), 2 filtered tcp ports (host-unreach)
+PORT    STATE SERVICE   VERSION
+80/tcp  open  http      awselb/2.0
+|_http-title: Human Verification
+|_http-server-header: awselb/2.0
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 405 Not Allowed
+|     Server: awselb/2.0
+|     Date: Sat, 16 Mar 2024 19:18:08 GMT
+|     Content-Length: 2069
+|     Connection: keep-alive
+|     x-amzn-waf-action: captcha
+|     Cache-Control: no-store, max-age=0
+|     Content-Type: text/html; charset=UTF-8
+|     <!DOCTYPE html>
+|     <html lang="en">
+|     <head>
+|     <meta charset="utf-8">
+|     <meta name="viewport" content="width=device-width, initial-scale=1">
+|     <title>Human Verification</title>
+|     <style>
+|     body {
+|     font-family: "Arial";
+|     </style>
+|     <script type="text/javascript">
+|     window.awsWafCookieDomainList = [];
+|     window.gokuProps = {
+|     "key":"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGJf+PlMo5TP/TkrmtlRxExAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM5lIbu/7KyEzNKVI0AgEQgDujOqMwqyL8qf0vmQz5Ug6gxRftKD3KpPJYPZgSM6cIhiwa8zy7W3K071zvIA5Kn06cpwwdyIwlRqrK7w==",
+|     "iv":"CgAGnQxJB9AAAAGf",
+|   HTTPOptions: 
+|     HTTP/1.1 405 Not Allowed
+|     Server: awselb/2.0
+|     Date: Sat, 16 Mar 2024 19:18:08 GMT
+|     Content-Length: 2069
+|     Connection: keep-alive
+|     x-amzn-waf-action: captcha
+|     Cache-Control: no-store, max-age=0
+|     Content-Type: text/html; charset=UTF-8
+|     <!DOCTYPE html>
+|     <html lang="en">
+|     <head>
+|     <meta charset="utf-8">
+|     <meta name="viewport" content="width=device-width, initial-scale=1">
+|     <title>Human Verification</title>
+|     <style>
+|     body {
+|     font-family: "Arial";
+|     </style>
+|     <script type="text/javascript">
+|     window.awsWafCookieDomainList = [];
+|     window.gokuProps = {
+|     "key":"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGJf+PlMo5TP/TkrmtlRxExAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM5lIbu/7KyEzNKVI0AgEQgDujOqMwqyL8qf0vmQz5Ug6gxRftKD3KpPJYPZgSM6cIhiwa8zy7W3K071zvIA5Kn06cpwwdyIwlRqrK7w==",
+|_    "iv":"CgAAfw3+fyAAABN2",
+443/tcp open  ssl/https awselb/2.0
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|   h2
+|_  http/1.1
+| ssl-cert: Subject: commonName=*.srmist.edu.in/organizationName=SRM INSTITUTE OF SCIENCE AND TECHNOLOGY/stateOrProvinceName=Tamil Nadu/countryName=IN
+| Subject Alternative Name: DNS:*.srmist.edu.in, DNS:srmist.edu.in
+| Not valid before: 2023-06-05T00:00:00
+|_Not valid after:  2024-07-05T23:59:59
+|_http-title: Human Verification
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 405 Not Allowed
+|     Server: awselb/2.0
+|     Date: Sat, 16 Mar 2024 19:18:14 GMT
+|     Content-Length: 2069
+|     Connection: close
+|     x-amzn-waf-action: captcha
+|     Cache-Control: no-store, max-age=0
+|     Content-Type: text/html; charset=UTF-8
+|     <!DOCTYPE html>
+|     <html lang="en">
+|     <head>
+|     <meta charset="utf-8">
+|     <meta name="viewport" content="width=device-width, initial-scale=1">
+|     <title>Human Verification</title>
+|     <style>
+|     body {
+|     font-family: "Arial";
+|     </style>
+|     <script type="text/javascript">
+|     window.awsWafCookieDomainList = [];
+|     window.gokuProps = {
+|     "key":"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGJf+PlMo5TP/TkrmtlRxExAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM5lIbu/7KyEzNKVI0AgEQgDujOqMwqyL8qf0vmQz5Ug6gxRftKD3KpPJYPZgSM6cIhiwa8zy7W3K071zvIA5Kn06cpwwdyIwlRqrK7w==",
+|     "iv":"CgAEQw396nAAABAf",
+|     "con
+|   HTTPOptions: 
+|     HTTP/1.1 405 Not Allowed
+|     Server: awselb/2.0
+|     Date: Sat, 16 Mar 2024 19:18:14 GMT
+|     Content-Length: 2069
+|     Connection: close
+|     x-amzn-waf-action: captcha
+|     Cache-Control: no-store, max-age=0
+|     Content-Type: text/html; charset=UTF-8
+|     <!DOCTYPE html>
+|     <html lang="en">
+|     <head>
+|     <meta charset="utf-8">
+|     <meta name="viewport" content="width=device-width, initial-scale=1">
+|     <title>Human Verification</title>
+|     <style>
+|     body {
+|     font-family: "Arial";
+|     </style>
+|     <script type="text/javascript">
+|     window.awsWafCookieDomainList = [];
+|     window.gokuProps = {
+|     "key":"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AGJf+PlMo5TP/TkrmtlRxExAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM5lIbu/7KyEzNKVI0AgEQgDujOqMwqyL8qf0vmQz5Ug6gxRftKD3KpPJYPZgSM6cIhiwa8zy7W3K071zvIA5Kn06cpwwdyIwlRqrK7w==",
+|     "iv":"CgAAQwzW0XAAAANS",
+|_    "con
+| tls-nextprotoneg: 
+|   h2
+|_  http/1.1
+|_http-server-header: awselb/2.0
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.94SVN%I=7%D=3/17%Time=65F5F070%P=x86_64-pc-linux-gnu%r(G
+SF:etRequest,900,"HTTP/1\.1\x20405\x20Not\x20Allowed\r\nServer:\x20awselb/
+SF:2\.0\r\nDate:\x20Sat,\x2016\x20Mar\x202024\x2019:18:08\x20GMT\r\nConten
+SF:t-Length:\x202069\r\nConnection:\x20keep-alive\r\nx-amzn-waf-action:\x2
+SF:0captcha\r\nCache-Control:\x20no-store,\x20max-age=0\r\nContent-Type:\x
+SF:20text/html;\x20charset=UTF-8\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=
+SF:\"en\">\n<head>\n\x20\x20\x20\x20<meta\x20charset=\"utf-8\">\n\x20\x20\
+SF:x20\x20<meta\x20name=\"viewport\"\x20content=\"width=device-width,\x20i
+SF:nitial-scale=1\">\n\x20\x20\x20\x20<title>Human\x20Verification</title>
+SF:\n\x20\x20\x20\x20<style>\n\x20\x20\x20\x20\x20\x20\x20\x20body\x20{\n\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20\"Arial\
+SF:";\n\x20\x20\x20\x20\x20\x20\x20\x20}\n\x20\x20\x20\x20</style>\n\x20\x
+SF:20\x20\x20<script\x20type=\"text/javascript\">\n\x20\x20\x20\x20window\
+SF:.awsWafCookieDomainList\x20=\x20\[\];\n\x20\x20\x20\x20window\.gokuProp
+SF:s\x20=\x20{\n\"key\":\"AQIDAHjcYu/GjX\+QlghicBgQ/7bFaQZ\+m5FKCMDnO\+vTb
+SF:Ng96AGJf\+PlMo5TP/TkrmtlRxExAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb
+SF:3DQEHATAeBglghkgBZQMEAS4wEQQM5lIbu/7KyEzNKVI0AgEQgDujOqMwqyL8qf0vmQz5Ug
+SF:6gxRftKD3KpPJYPZgSM6cIhiwa8zy7W3K071zvIA5Kn06cpwwdyIwlRqrK7w==\",\n\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\"iv\":\"CgAGnQxJB9AAAAGf\",\n\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20")%r(HTTPOptions,900,"HTTP/1\.1\x20405\x
+SF:20Not\x20Allowed\r\nServer:\x20awselb/2\.0\r\nDate:\x20Sat,\x2016\x20Ma
+SF:r\x202024\x2019:18:08\x20GMT\r\nContent-Length:\x202069\r\nConnection:\
+SF:x20keep-alive\r\nx-amzn-waf-action:\x20captcha\r\nCache-Control:\x20no-
+SF:store,\x20max-age=0\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\n
+SF:\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\">\n<head>\n\x20\x20\x20\x20
+SF:<meta\x20charset=\"utf-8\">\n\x20\x20\x20\x20<meta\x20name=\"viewport\"
+SF:\x20content=\"width=device-width,\x20initial-scale=1\">\n\x20\x20\x20\x
+SF:20<title>Human\x20Verification</title>\n\x20\x20\x20\x20<style>\n\x20\x
+SF:20\x20\x20\x20\x20\x20\x20body\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20font-family:\x20\"Arial\";\n\x20\x20\x20\x20\x20\x20\x20\
+SF:x20}\n\x20\x20\x20\x20</style>\n\x20\x20\x20\x20<script\x20type=\"text/
+SF:javascript\">\n\x20\x20\x20\x20window\.awsWafCookieDomainList\x20=\x20\
+SF:[\];\n\x20\x20\x20\x20window\.gokuProps\x20=\x20{\n\"key\":\"AQIDAHjcYu
+SF:/GjX\+QlghicBgQ/7bFaQZ\+m5FKCMDnO\+vTbNg96AGJf\+PlMo5TP/TkrmtlRxExAAAAf
+SF:jB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM5lIb
+SF:u/7KyEzNKVI0AgEQgDujOqMwqyL8qf0vmQz5Ug6gxRftKD3KpPJYPZgSM6cIhiwa8zy7W3K
+SF:071zvIA5Kn06cpwwdyIwlRqrK7w==\",\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\"iv\":\"CgAAfw3\+fyAAABN2\",\n\x20\x20\x20\x20\x20\x20\x20\x20\x20"
+SF:);
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.94SVN%T=SSL%I=7%D=3/17%Time=65F5F076%P=x86_64-pc-linux-
+SF:gnu%r(GetRequest,8FB,"HTTP/1\.1\x20405\x20Not\x20Allowed\r\nServer:\x20
+SF:awselb/2\.0\r\nDate:\x20Sat,\x2016\x20Mar\x202024\x2019:18:14\x20GMT\r\
+SF:nContent-Length:\x202069\r\nConnection:\x20close\r\nx-amzn-waf-action:\
+SF:x20captcha\r\nCache-Control:\x20no-store,\x20max-age=0\r\nContent-Type:
+SF:\x20text/html;\x20charset=UTF-8\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lan
+SF:g=\"en\">\n<head>\n\x20\x20\x20\x20<meta\x20charset=\"utf-8\">\n\x20\x2
+SF:0\x20\x20<meta\x20name=\"viewport\"\x20content=\"width=device-width,\x2
+SF:0initial-scale=1\">\n\x20\x20\x20\x20<title>Human\x20Verification</titl
+SF:e>\n\x20\x20\x20\x20<style>\n\x20\x20\x20\x20\x20\x20\x20\x20body\x20{\
+SF:n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20\"Aria
+SF:l\";\n\x20\x20\x20\x20\x20\x20\x20\x20}\n\x20\x20\x20\x20</style>\n\x20
+SF:\x20\x20\x20<script\x20type=\"text/javascript\">\n\x20\x20\x20\x20windo
+SF:w\.awsWafCookieDomainList\x20=\x20\[\];\n\x20\x20\x20\x20window\.gokuPr
+SF:ops\x20=\x20{\n\"key\":\"AQIDAHjcYu/GjX\+QlghicBgQ/7bFaQZ\+m5FKCMDnO\+v
+SF:TbNg96AGJf\+PlMo5TP/TkrmtlRxExAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGS
+SF:Ib3DQEHATAeBglghkgBZQMEAS4wEQQM5lIbu/7KyEzNKVI0AgEQgDujOqMwqyL8qf0vmQz5
+SF:Ug6gxRftKD3KpPJYPZgSM6cIhiwa8zy7W3K071zvIA5Kn06cpwwdyIwlRqrK7w==\",\n\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\"iv\":\"CgAEQw396nAAABAf\",\n\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20\x20\"con")%r(HTTPOptions,8FB,"HTTP/1\
+SF:.1\x20405\x20Not\x20Allowed\r\nServer:\x20awselb/2\.0\r\nDate:\x20Sat,\
+SF:x2016\x20Mar\x202024\x2019:18:14\x20GMT\r\nContent-Length:\x202069\r\nC
+SF:onnection:\x20close\r\nx-amzn-waf-action:\x20captcha\r\nCache-Control:\
+SF:x20no-store,\x20max-age=0\r\nContent-Type:\x20text/html;\x20charset=UTF
+SF:-8\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\">\n<head>\n\x20\x20\x
+SF:20\x20<meta\x20charset=\"utf-8\">\n\x20\x20\x20\x20<meta\x20name=\"view
+SF:port\"\x20content=\"width=device-width,\x20initial-scale=1\">\n\x20\x20
+SF:\x20\x20<title>Human\x20Verification</title>\n\x20\x20\x20\x20<style>\n
+SF:\x20\x20\x20\x20\x20\x20\x20\x20body\x20{\n\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20font-family:\x20\"Arial\";\n\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20}\n\x20\x20\x20\x20</style>\n\x20\x20\x20\x20<script\x20type=\
+SF:"text/javascript\">\n\x20\x20\x20\x20window\.awsWafCookieDomainList\x20
+SF:=\x20\[\];\n\x20\x20\x20\x20window\.gokuProps\x20=\x20{\n\"key\":\"AQID
+SF:AHjcYu/GjX\+QlghicBgQ/7bFaQZ\+m5FKCMDnO\+vTbNg96AGJf\+PlMo5TP/TkrmtlRxE
+SF:xAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQ
+SF:QM5lIbu/7KyEzNKVI0AgEQgDujOqMwqyL8qf0vmQz5Ug6gxRftKD3KpPJYPZgSM6cIhiwa8
+SF:zy7W3K071zvIA5Kn06cpwwdyIwlRqrK7w==\",\n\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\"iv\":\"CgAAQwzW0XAAAANS\",\n\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\"con");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 28.97 seconds

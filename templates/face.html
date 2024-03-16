@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Buster</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap">
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: 'Lilita One', sans-serif;
+            background-color: #FFDBDB;
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+
+        /* Header Styles */
+        .header {
+            position: fixed;
+    top: 2px;
+    bottom:2;
+    left: 50%; /* Positioning the navbar at the middle of the screen horizontally */
+    transform: translateX(-50%); /* Adjusting for the position from left edge */
+    width: 60%; /* Adjust the width as needed */
+    border-radius:100px;
+
+    background: linear-gradient(90deg,#FFB6B6 100%, #FFDBDB 0%);
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 70px;
+            padding: 0 10px;
+            color: #fff;
+        }
+
+        .navbar-brand {
+            font-size: 2rem;
+            font-weight: bold;
+            text-decoration: none;
+
+            margin-left: 80px; /* Example: move text 20px to the right */
+    margin-right: 20px; /* Example: move text 20px to the left */
+    margin-top: 10px; /* Example: move text 10px down */
+    margin-bottom: 10px;
+            left:10px;
+            color: #fff;
+            animation: fadeIn 1s ease;
+        }
+
+        .menu-items {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu-items li {
+            margin-right: 15px;
+        }
+
+        .menu-items li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+        }
+
+        .menu-items li a:hover {
+            color: #FFDBDB;
+        }
+
+        /* Main Content Styles */
+        .container-body {
+            margin-top: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: calc(100vh - 100px);
+            position: relative;
+            animation: slideUp 1s ease;
+        }
+
+        .container {
+            max-width: 450px;
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+            background-color: transparent;
+            border-radius: 20px;
+            animation: fadeIn 1s ease;
+        }
+
+        h1 {
+            font-size: 40px;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #222831;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .container-form {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 10px;
+            border-radius: 27px;
+            border: 2px solid #222831;
+            font-size: 1.5rem;
+            appearance: none;
+            outline: none;
+            cursor: pointer;
+            background-color: #f8f9fa;
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+        }
+
+        input[type="text"]::placeholder {
+            color: #999;
+        }
+
+        .submit-button {
+            width: 100%;
+            max-width: 250px;
+            padding: 15px 30px;
+            border-radius: 20px;
+            border: none;
+            background-color: #393e46;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 1.5rem;
+        }
+
+        .submit-button:hover {
+            background-color: black;
+        }
+
+        /* Shapes and Objects */
+        .shape {
+            position: absolute;
+            z-index: -1;
+            opacity: 0.8;
+            background-color: #000;
+            border-radius: 50%;
+        }
+
+        /* Circles */
+        .circle {
+            width: 80px;
+            height: 80px;
+            animation: fadeIn 1s ease;
+        }
+
+        .circle:nth-child(2) {
+            width: 100px;
+            height: 100px;
+        }
+
+        .circle:nth-child(3) {
+            width: 70px;
+            height: 70px;
+        }
+
+        .circle:nth-child(4) {
+            width: 120px;
+            height: 120px;
+        }
+
+        .circle:nth-child(5) {
+            width: 90px;
+            height: 90px;
+        }
+
+        .circle:nth-child(6) {
+            width: 110px;
+            height: 110px;
+        }
+
+        .circle:nth-child(7) {
+            width: 100px;
+            height: 100px;
+        }
+
+        .circle:nth-child(8) {
+            width: 70px;
+            height: 70px;
+        }
+
+        .circle:nth-child(9) {
+            width: 60px;
+            height: 60px;
+        }
+
+        .circle:nth-child(10) {
+            width: 80px;
+            height: 80px;
+        }
+
+        /* Animations */
+        @keyframes slideDown {
+            0% {
+                transform: translateY(-100%);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideUp {
+            0% {
+                transform: translateY(100%);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+<header class="header">
+    <nav class="navbar">
+        <a href="/home" class="navbar-brand">Bug Buster</a>
+        <ul class="menu-items">
+
+        </ul>
+    </nav>
+</header>
+<div class="container-body">
+    <div class="container">
+        <h1>Enter the URL to scan</h1>
+        <form id="scanForm" method="POST" enctype="multipart/form-data">
+            <div class="container-form">
+                <input type="text" name="domain" placeholder="Enter URL">
+                <select name="action" id="scanAction">
+                    <option value="subdomainscan">Subdomain Scan</option>
+                    <option value="see-working-domains">See Working Subdomains</option>
+                    <option value="dnsrecon-scan">DNSRecon Scan</option>
+                    <option value="basic-scan">Basic Scan</option>
+                    <option value="nmap-scan">Nmap Scan</option>
+                    <option value="xss-scan">Xss Scan</option>
+                </select>
+            </div>
+            <input class="submit-button" type="submit" value="Scan Now!">
+        </form>
+    </div>
+</div>
+<!-- Shapes and Objects -->
+
+<script>
+    document.getElementById("scanForm").addEventListener("submit", function(event) {
+        var selectedAction = document.getElementById("scanAction").value;
+        this.action = "/" + selectedAction;
+    });
+</script>
+</body>
+</html>

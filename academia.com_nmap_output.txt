@@ -1,0 +1,20 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-03-16 19:06 IST
+Nmap scan report for academia.com (18.161.246.43)
+Host is up (0.023s latency).
+Other addresses for academia.com (not scanned): 18.161.246.17 18.161.246.28 18.161.246.125
+rDNS record for 18.161.246.43: server-18-161-246-43.maa50.r.cloudfront.net
+Not shown: 996 filtered tcp ports (no-response), 2 filtered tcp ports (host-unreach)
+PORT    STATE SERVICE VERSION
+80/tcp  open  http    Amazon CloudFront httpd
+|_http-title: Did not follow redirect to https://academia.com/
+|_http-server-header: CloudFront
+443/tcp open  http    Amazon CloudFront httpd
+|_http-server-header: CloudFront
+|_http-title: ERROR: The request could not be satisfied
+| ssl-cert: Subject: commonName=*.academia.com
+| Subject Alternative Name: DNS:*.academia.com, DNS:academia.com
+| Not valid before: 2023-04-18T00:00:00
+|_Not valid after:  2024-05-16T23:59:59
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 31.87 seconds

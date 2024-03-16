@@ -1,0 +1,20 @@
+[caa-fingerprint] [dns] [info] srmist.edu.in
+[nameserver-fingerprint] [dns] [info] srmist.edu.in ["ns13.srm.edu.in.","ns15.srm.edu.in.","ns11.srm.edu.in.","ns10.srm.edu.in.","ns12.srm.edu.in.","ns14.srm.edu.in."]
+[mx-service-detector:Google Apps] [dns] [info] srmist.edu.in
+[mx-fingerprint] [dns] [info] srmist.edu.in ["5 alt1.aspmx.l.google.com.","1 aspmx.l.google.com.","10 alt4.aspmx.l.google.com.","10 alt3.aspmx.l.google.com.","5 alt2.aspmx.l.google.com."]
+[dmarc-detect] [dns] [info] _dmarc.srmist.edu.in ["\"v=DMARC1; p=none; rua=mailto:dmarc@srmist.edu.in\""]
+[tech-detect:awselb] [http] [info] https://srmist.edu.in
+[http-missing-security-headers:permissions-policy] [http] [info] https://srmist.edu.in
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://srmist.edu.in
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://srmist.edu.in
+[http-missing-security-headers:clear-site-data] [http] [info] https://srmist.edu.in
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://srmist.edu.in
+[http-missing-security-headers:strict-transport-security] [http] [info] https://srmist.edu.in
+[http-missing-security-headers:content-security-policy] [http] [info] https://srmist.edu.in
+[http-missing-security-headers:x-frame-options] [http] [info] https://srmist.edu.in
+[http-missing-security-headers:x-content-type-options] [http] [info] https://srmist.edu.in
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://srmist.edu.in
+[http-missing-security-headers:referrer-policy] [http] [info] https://srmist.edu.in
+[aws-detect:aws-alb] [http] [info] https://srmist.edu.in
+[aws-detect:aws-waf-captcha] [http] [info] https://srmist.edu.in
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/srmist.edu.in/v2.0/.well-known/openid-configuration ["813e6569-4e44-4d95-88a0-16a97bd5277c"]

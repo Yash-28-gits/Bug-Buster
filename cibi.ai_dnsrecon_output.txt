@@ -1,0 +1,41 @@
+[*] std: Performing General Enumeration against: cibi.ai...
+[*] DNSSEC is configured for cibi.ai
+[*] DNSKEYs:
+[*] 	NSEC KSk ECDSAP256SHA256 99db2cc14cabdc33d6d77da63a2f15f7 1112584f234e8d1dc428e39e8a4a97e1 aa271a555dc90701e17e2a4c4b6f120b 7c32d44f4ac02bd894cf2d4be7778a19
+[*] 	NSEC ZSK ECDSAP256SHA256 a09311112cf9138818cd2feae970ebbd 4d6a30f6088c25b325a39abbc5cd1197 aa098283e5aaf421177c2aa5d714992a 9957d1bcc18f98cd71f1f1806b65e148
+[*] 	 SOA opal.ns.cloudflare.com 162.159.38.100
+[*] 	 SOA opal.ns.cloudflare.com 172.64.34.100
+[*] 	 SOA opal.ns.cloudflare.com 108.162.194.100
+[*] 	 SOA opal.ns.cloudflare.com 2803:f800:50::6ca2:c264
+[*] 	 SOA opal.ns.cloudflare.com 2a06:98c1:50::ac40:2264
+[*] 	 SOA opal.ns.cloudflare.com 2606:4700:50::a29f:2664
+[*] 	 NS opal.ns.cloudflare.com 108.162.194.100
+[*] 	 Bind Version for 108.162.194.100 "2024.2.2"
+[*] 	 NS opal.ns.cloudflare.com 162.159.38.100
+[*] 	 Bind Version for 162.159.38.100 "2024.2.2"
+[*] 	 NS opal.ns.cloudflare.com 172.64.34.100
+[*] 	 Bind Version for 172.64.34.100 "2024.2.2"
+[*] 	 NS opal.ns.cloudflare.com 2606:4700:50::a29f:2664
+[*] 	 NS opal.ns.cloudflare.com 2803:f800:50::6ca2:c264
+[*] 	 NS opal.ns.cloudflare.com 2a06:98c1:50::ac40:2264
+[*] 	 NS sevki.ns.cloudflare.com 162.159.44.164
+[*] 	 Bind Version for 162.159.44.164 "2024.2.2"
+[*] 	 NS sevki.ns.cloudflare.com 172.64.35.164
+[*] 	 Bind Version for 172.64.35.164 "2024.2.2"
+[*] 	 NS sevki.ns.cloudflare.com 108.162.195.164
+[*] 	 Bind Version for 108.162.195.164 "2024.2.2"
+[*] 	 NS sevki.ns.cloudflare.com 2803:f800:50::6ca2:c3a4
+[*] 	 NS sevki.ns.cloudflare.com 2a06:98c1:50::ac40:23a4
+[*] 	 NS sevki.ns.cloudflare.com 2606:4700:58::a29f:2ca4
+[*] 	 MX cibi-ai.mail.protection.outlook.com 52.101.145.2
+[*] 	 MX cibi-ai.mail.protection.outlook.com 52.101.144.3
+[*] 	 MX cibi-ai.mail.protection.outlook.com 52.101.144.0
+[*] 	 MX cibi-ai.mail.protection.outlook.com 52.101.145.0
+[*] 	 A cibi.ai 104.21.90.135
+[*] 	 A cibi.ai 172.67.200.171
+[*] 	 AAAA cibi.ai 2606:4700:3037::ac43:c8ab
+[*] 	 AAAA cibi.ai 2606:4700:3034::6815:5a87
+[*] 	 TXT cibi.ai MS=ms33276834
+[*] 	 TXT cibi.ai v=spf1 include:spf.protection.outlook.com -all
+[*] Enumerating SRV Records
+[-] No SRV Records Found for cibi.ai

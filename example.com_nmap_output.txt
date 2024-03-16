@@ -1,0 +1,14 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-03-16 19:16 IST
+Nmap scan report for example.com (93.184.216.34)
+Host is up (0.012s latency).
+Other addresses for example.com (not scanned): 2606:2800:220:1:248:1893:25c8:1946
+Not shown: 996 filtered tcp ports (no-response), 3 filtered tcp ports (host-unreach)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Edgecast CDN httpd (dce/2694)
+|_http-title: Example Domain
+| http-server-header: 
+|   ECS (dce/2694)
+|_  ECS (dce/26A0)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 18.13 seconds

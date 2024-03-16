@@ -1,0 +1,47 @@
+[*] std: Performing General Enumeration against: srmist.edu.in...
+[!] Wildcard resolution is enabled on this domain
+[!] It is resolving to srmist-alb-630144276.ap-south-1.elb.amazonaws.com
+[!] It is resolving to 65.1.50.41
+[!] It is resolving to 13.127.51.112
+[!] All queries will resolve to this list of addresses!!
+[-] DNSSEC is not configured for srmist.edu.in
+[*] 	 SOA ns20.digicertdns.com 208.94.148.223
+[*] 	 SOA ns20.digicertdns.com 2600:1800:10::1:1f
+[*] 	 NS ns10.srm.edu.in 208.94.148.4
+[*] 	 Bind Version for 208.94.148.4 Anycast"
+[*] 	 NS ns14.srm.edu.in 208.80.127.4
+[*] 	 Bind Version for 208.80.127.4 Anycast"
+[*] 	 NS ns11.srm.edu.in 208.80.124.4
+[*] 	 Bind Version for 208.80.124.4 Anycast"
+[*] 	 NS ns15.srm.edu.in 208.94.149.4
+[*] 	 Bind Version for 208.94.149.4 Anycast"
+[*] 	 MX alt3.aspmx.l.google.com 142.250.141.26
+[*] 	 MX alt2.aspmx.l.google.com 173.194.65.26
+[*] 	 MX alt4.aspmx.l.google.com 142.250.115.26
+[*] 	 MX alt1.aspmx.l.google.com 173.194.202.26
+[*] 	 MX aspmx.l.google.com 74.125.68.26
+[*] 	 MX alt3.aspmx.l.google.com 2607:f8b0:4023:c0b::1a
+[*] 	 MX alt2.aspmx.l.google.com 2607:f8b0:4023:1c03::1a
+[*] 	 MX alt4.aspmx.l.google.com 2607:f8b0:4023:1004::1b
+[*] 	 MX alt1.aspmx.l.google.com 2607:f8b0:400e:c00::1b
+[*] 	 MX aspmx.l.google.com 2404:6800:4003:c04::1b
+[*] 	 A srmist.edu.in 13.127.51.112
+[*] 	 A srmist.edu.in 65.1.50.41
+[*] 	 TXT srmist.edu.in 6kbsqmfwvcdlcbq169v045x72pbg9kl7
+[*] 	 TXT srmist.edu.in v=spf1 include:usermail.zohocreator.com include:_spf.google.com include:nlsmtp.com include:spf.falconide.com include:a._spf.brightspace.com ~all
+[*] 	 TXT srmist.edu.in MS=7564F5955E4F188AB4B0A532EE67B2BD2E9B783C
+[*] 	 TXT srmist.edu.in 6pgbgzy8snk2p4bmsq6d1n090157kkwf
+[*] 	 TXT srmist.edu.in fpqjsf5lhyy89vl02lgm7tgh413m6qr9
+[*] 	 TXT srmist.edu.in aqc0410fhvo420g17vpbnv8p91
+[*] 	 TXT srmist.edu.in gdglpr7x3zlc66z5bd429s8xq98838gh
+[*] 	 TXT srmist.edu.in MS=ms68684353
+[*] 	 TXT srmist.edu.in google-site-verification=BRsAw7DYF9GUajVnhWwERofZQkjjUgYZxqdeugUZwbk
+[*] 	 TXT srmist.edu.in vzf6mhrxgg22cxcvqf4ts5s1k2fc5t96
+[*] 	 TXT srmist.edu.in z3mqf4rcxy33hsfm3b7z5q9h79zddw04
+[*] 	 TXT srmist.edu.in google-site-verification=obbFZaPWJLcN0RqmiRGIrEAF-Kp4szguwdudtHm0MOQ
+[*] 	 TXT srmist.edu.in google-site-verification=muYy0muG5A4KCuG72CH4tTKM_a7XIUOAS9BeYsEAYmU
+[*] 	 TXT srmist.edu.in google-site-verification=JLu8PvJV48N4B9s51jJELqTW7KsMGHbB9jgjSg6cI1c
+[*] 	 TXT srmist.edu.in t22c1o0ba0ogp4f2fch9q808ck
+[*] 	 TXT _dmarc.srmist.edu.in v=DMARC1; p=none; rua=mailto:dmarc@srmist.edu.in
+[*] Enumerating SRV Records
+[-] No SRV Records Found for srmist.edu.in

@@ -1,0 +1,37 @@
+[*] std: Performing General Enumeration against: academia.com...
+[!] Wildcard resolution is enabled on this domain
+[!] It is resolving to www.academia.edu
+[!] It is resolving to 18.161.229.66
+[!] It is resolving to 18.161.229.52
+[!] It is resolving to 18.161.229.26
+[!] It is resolving to 18.161.229.88
+[!] All queries will resolve to this list of addresses!!
+[-] DNSSEC is not configured for academia.com
+[*] 	 SOA ns-195.awsdns-24.com 205.251.192.195
+[*] 	 SOA ns-195.awsdns-24.com 2600:9000:5300:c300::1
+[*] 	 NS ns-1331.awsdns-38.org 205.251.197.51
+[*] 	 NS ns-1331.awsdns-38.org 2600:9000:5305:3300::1
+[*] 	 NS ns-1606.awsdns-08.co.uk 205.251.198.70
+[*] 	 NS ns-1606.awsdns-08.co.uk 2600:9000:5306:4600::1
+[*] 	 NS ns-195.awsdns-24.com 205.251.192.195
+[*] 	 NS ns-195.awsdns-24.com 2600:9000:5300:c300::1
+[*] 	 NS ns-983.awsdns-58.net 205.251.195.215
+[*] 	 NS ns-983.awsdns-58.net 2600:9000:5303:d700::1
+[*] 	 MX aspmx.l.google.com 142.251.175.27
+[*] 	 MX alt1.aspmx.l.google.com 173.194.202.27
+[*] 	 MX alt2.aspmx.l.google.com 173.194.65.27
+[*] 	 MX aspmx2.googlemail.com 173.194.202.27
+[*] 	 MX aspmx3.googlemail.com 173.194.65.27
+[*] 	 MX aspmx.l.google.com 2404:6800:4003:c1c::1a
+[*] 	 MX alt1.aspmx.l.google.com 2607:f8b0:400e:c00::1b
+[*] 	 MX alt2.aspmx.l.google.com 2607:f8b0:4023:1c03::1b
+[*] 	 MX aspmx2.googlemail.com 2607:f8b0:400e:c00::1a
+[*] 	 MX aspmx3.googlemail.com 2607:f8b0:4023:1c03::1a
+[*] 	 A academia.com 18.161.246.28
+[*] 	 A academia.com 18.161.246.43
+[*] 	 A academia.com 18.161.246.17
+[*] 	 A academia.com 18.161.246.125
+[*] 	 TXT academia.com ZOOM_verify_DPXQHCAiYUXIsIBCLBrukV
+[*] 	 TXT academia.com google-site-verification=kLNR9Cn-IFZpfuVhzV6m7OXS8x6hcDm9s_p3lIzkRVs
+[*] Enumerating SRV Records
+[-] No SRV Records Found for academia.com
