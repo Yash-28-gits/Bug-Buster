@@ -29,7 +29,7 @@ To start using Bug Buster, follow these basic steps:
 - This was Devhouse Hackthon Project held in VIT Chennai fron 15th March 2024 till 17th March 2024. Team Members and Collaborators are [Yash Rohilla](https://github.com/Yash-28-gits) [OM Arora](https://github.com/Om1603) [Rahul Shankar Mathur](https://github.com/Rahulmathur2301) [Aditya Mathur](https://github.com/Maditya3102)
 
 ## Video Tutorial
--[Watch](https://drive.google.com/file/d/1EAJ6HiJtlUvjjksW1nmf_tnX4JE-xwVn/view?usp=sharing)
+-[Demo](https://drive.google.com/file/d/1EAJ6HiJtlUvjjksW1nmf_tnX4JE-xwVn/view?usp=sharing)
 
 ## Support
 
