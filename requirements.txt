@@ -1,0 +1,9 @@
+Python 3.10.12
+Flask 3.0.2
+
+Tools Used: (u need to insatall it as sudo apt install <tool>)
+    Nmap
+    DNSrecon
+    Nuclei
+    httprobe
+    
